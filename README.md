@@ -1,1 +1,1 @@
-# ignite-timer
+![Ignite Timer](./.github/ignite-timer.png)
