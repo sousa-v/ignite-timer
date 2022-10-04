@@ -23,4 +23,18 @@ body, input, textarea, button {
   font-weight: 400;
   font-size: 1rem;
 }
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: ${({ theme }) => theme['gray-800']};
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: ${({ theme }) => theme['gray-500']};   
+  border-radius: 20px;      
+  border: 3px solid ${({ theme }) => theme['gray-600']};
+}
 `
