@@ -66,7 +66,7 @@ export function CyclesContextProvider({
       startDate: new Date(),
     }
 
-    setCycles((state) => [...state, newCycle])
+    setCycles((state) => [newCycle, ...state])
     setActiveCycleId(id)
     setAmountSecondsPassed(0)
   }
